@@ -24,6 +24,10 @@ import {Button,
     Tooltip,
     Dialog,
     MessageBox,
+    Tag,
+    Tree,
+    Select,
+    Option,
 } from 'element-ui'
 import lang from 'element-ui/lib/locale/lang/en'
 import locale from 'element-ui/lib/locale'
@@ -55,5 +59,9 @@ Vue.use(TableColumn)
 Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
