@@ -8,6 +8,7 @@ import './assets/iconfont/iconfont.css'
 import './assets/font_home/iconfont.css'
 
 import axios from 'axios'
+import TreeTable from 'vue-table-with-tree-grid'
 
 
 
@@ -22,7 +23,7 @@ Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
 
-
+Vue.component('tree-table', TreeTable)
 
 new Vue({
   router,
